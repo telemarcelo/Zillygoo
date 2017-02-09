@@ -1,0 +1,48 @@
+/* add your CSS here */
+body {
+	font-family: helvetica;
+	font-size:12px;
+}
+img,
+.shadowBox,
+.Info {
+	border: 1px solid lightgrey;
+}
+.shadowBox {
+	-webkit-box-shadow: 5px 5px 18px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 18px -3px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 18px -3px rgba(0,0,0,0.75);
+	width:320px;
+}
+ul {
+	list-style:  none;
+	padding-left: 0;
+	font-style: italic;
+}
+.Item {
+	font-weight: bold;
+	font-style:normal;
+}
+.Info {
+	padding:0px;
+	padding-left: 10px;
+	padding-right:10px;
+}
+.Title {
+	font-size: 24px;
+}
+.Title,
+.Image,
+.Info {
+	margin-top: 10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+img{
+	height:100%;
+	width:100%;
+}
+.Fact {
+	font-style: italic;
+}
